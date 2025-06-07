@@ -10,7 +10,7 @@ const Header = () => {
             <Link href="/">My Project</Link>
           </div>
           <nav className='flex-grow flex justify-end sm:mr-10 md:mr-20 lg:mr-40'>
-            <ul className="flex space-x-20 items-center">
+            <ul className="flex space-x-20 items-center font-semibold">
               <li>
                 <Link href="/home" className='hover:underline'>Home</Link>
               </li>
@@ -19,6 +19,9 @@ const Header = () => {
               </li>
               <li>
                 <Link href="/posts" className='hover:underline'>Posts</Link>
+              </li>
+              <li>
+                <Link href="/users" className='hover:underline'>Users</Link>
               </li>
             </ul>
           </nav>

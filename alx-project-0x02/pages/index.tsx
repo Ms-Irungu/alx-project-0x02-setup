@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '@/components/layout/Header'
+import Link from 'next/link'
 
 const index = () => {
   return (
@@ -13,9 +14,9 @@ const index = () => {
           <p className="mt-4 text-xl text-blue-700">
             Scaffold a Next.js application with TypeScript and Tailwind CSS. Enjoy!
           </p>
-          <button className="mt-6 px-6 py-3 bg-blue-400 text-blue-800 rounded-full font-semibold hover:bg-blue-300 transition">
+          <Link href='/home' className="inline-block mt-6 px-6 py-3 bg-blue-400 text-blue-800 rounded-full font-semibold hover:bg-blue-300 transition">
             Get Started
-          </button>
+          </Link>
         </div>
       </main> 
     </div>
